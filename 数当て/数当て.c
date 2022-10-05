@@ -5,7 +5,7 @@ void main()
 	int a, i;
 	printf("4桁以内で数字を決めてください。\n");
 	scanf("%d", &a);
-	if (a > 10000) {
+	if (a > 9999) {
 		printf("範囲を超えています。\n");
 		exit(1);
 	}
