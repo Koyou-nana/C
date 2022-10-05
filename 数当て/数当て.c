@@ -11,7 +11,7 @@ void main()
 	}
 	for (i = 0; i < 10000; i++) {
 		if (a == i) {
-			printf("%04d = %04d true\n数値が一致しました。\nあなたのパスワードは%04dです。\n", a, i, i);
+			printf("%04d = %04d true\n数値が一致しました。\nあなたの決めた数字は%04dです。\n", a, i, i);
 			exit(0);
 		}
 		else {
