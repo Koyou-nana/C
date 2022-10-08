@@ -1,7 +1,7 @@
 ﻿#include <stdio.h>
 #include <Windows.h>
 // プログラム作成者 -> 小葉　七夜
-// バグ/かいりきベア(https://www.youtube.com/watch?v=FkO8ub83wss)
+// バグ/かいりきベア(https://www.youtube.com/watch?v=FkO8ub83ws)
 // 周波数を簡単に入力できるように
 #define A35 233
 #define B3 246
