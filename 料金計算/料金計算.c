@@ -86,16 +86,16 @@ void price(int* num, int num2)
             a = num[i];
             switch (a)
             {
-            case '1':
+            case 1:
                 all += 2000;
                 break;
-            case '2':
+            case 2:
                 all += 3000;
                 break;
-            case '3':
+            case 3:
                 all += 5000;
                 break;
-            case '0':
+            case 0:
                 ok = 1;
                 break;
             default:
@@ -117,13 +117,13 @@ void price(int* num, int num2)
             a = num[i];
             switch (a)
             {
-                case '1':
+                case 1:
                     all += 1500;
                     break;
-                case '2':
+                case 2:
                     all += 1500;
                     break;
-                case '0':
+                case 0:
                     ok = 1;
                     break;
                 default:
@@ -146,16 +146,16 @@ void price(int* num, int num2)
             a = num[i];
             switch (a)
             {
-                case '1':
+                case 1:
                     all /= 2;
                     break;
-                case '2':
+                case 2:
                     all -= 1500;
                     break;
-                case '3':
+                case 3:
                     all -= 1500;
                     break;
-                case '0':
+                case 0:
                     ok = 1;
                     break;
                 default:
