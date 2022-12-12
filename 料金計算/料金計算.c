@@ -84,7 +84,6 @@ void price(int* num, int num2)
         while (i < 5)
         {
             a = num[i];
-            printf("%d\n", a);
             switch (a)
             {
             case '1':
