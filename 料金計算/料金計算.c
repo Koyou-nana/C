@@ -127,8 +127,7 @@ void price(int* num, int num2)
                     ok = 1;
                     break;
                 default:
-                    printf("%d番目の入力が誤っています(無視されます)※注意,番号は0から始まります\n", i++);
-                    i--;
+                    printf("%d番目の入力が誤っています(無視されます)※注意,番号は0から始まります\n", i);
                     break;
             }
             if (ok == 1)
